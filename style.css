@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-image: linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:85%;
+    height: 640px;
+    background:linear-gradient(to right, #01022de5 10%, #00000088), 
+    url(./pepsi-3d-logo-4k-gray-brickwall-creative-brands.jpg) center center/cover 
+    ;
+}
+
+.container:hover{
+    background: 
+    linear-gradient(to right, transparent,#00000088 ),
+     url(./pepsi-3d-logo-4k-gray-brickwall-creative-brands.jpg) center center/cover ;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    list-style: none;
+}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+
+ul a:hover{
+    border-bottom-color:#fff ;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.contnt{
+    width: 50%;
+    margin-top: 50px;
+    color: #fff;
+    padding: 30px;
+}
+
+.contnt h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.contnt p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+
+}
+
+.contnt button{
+    padding: 6px 60px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.contnt button:hover{
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
+}
